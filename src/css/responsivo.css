@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+    body {
+        background-position: center;
+        padding: 0 15px;
+
+        .slider {
+            gap: 10px;
+        }
+    }
+}
+
+
+@media (max-width: 496px) {
+    body {
+        .list-characters {
+            width: 250px ;
+        }
+
+        .image-card {
+            width: 100%;
+        }
+
+        .slider {
+            position: relative;
+        }
+
+        .btn-seta {
+            position: absolute;
+            bottom: -13%;
+        }
+
+        #btn-next {
+            right: 20%;
+        }
+
+        #btn-back {
+            left: 20%;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        justify-content: start;
+        padding-top:10px ;
+        gap: 10px;
+
+        .header {
+            font-size: 12px;
+        }
+    }
+}
